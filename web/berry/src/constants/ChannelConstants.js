@@ -149,6 +149,12 @@ export const CHANNEL_OPTIONS = {
     value: 39,
     color: 'primary'
   },
+  40: {
+    key: 40,
+    text: '字节云雀',
+    value: 40,
+    color: 'primary'
+  },
   8: {
     key: 8,
     text: '自定义渠道',
