@@ -167,7 +167,10 @@ func ConvertRequest(request model.GeneralOpenAIRequest) *ChatRequest {
 			Temperature:  request.Temperature,
 			TopP:         request.TopP,
 		},
-		Model:  Model{Name: request.Model},
+		Model: Model{
+			Name:       request.Model,
+			EndpointId: "mse-20240326140733-pllhl",
+		},
 		Stream: request.Stream,
 	}
 	for _, message := range request.Messages {
