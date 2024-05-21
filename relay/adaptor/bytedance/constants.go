@@ -13,4 +13,10 @@ var ModelList = []string{
 	"bge-large-zh",
 	"bge-m3",
 	"bge-large-zh-and-m3",
+	"doubao-lite-4k",
+	"doubao-lite-32k",
+	"doubao-lite-128k",
+	"doubao-pro-4k",
+	"doubao-pro-32k",
+	"doubao-pro-128k",
 }
